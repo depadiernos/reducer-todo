@@ -1,12 +1,11 @@
-import React, { useState, useReducer } from 'react';
+import React from 'react';
 import TodoList from 'components/TodoList'
 
 function App() {
-    const 
+    
   return (
     <div className="App">
       <TodoList />
-      <AddTodo />
     </div>
   );
 }
